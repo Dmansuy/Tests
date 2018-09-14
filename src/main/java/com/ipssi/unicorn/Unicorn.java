@@ -39,7 +39,7 @@ public class Unicorn {
 
     @Nonnull
     private void validateZipCode(@Nonnull String numberOfWorld) {
-        requireNonNull(numberOfWorld, "zip code cannot be null");
+        requireNonNull(numberOfWorld, "number of world cannot be null");
 
         Validate.isTrue(numberOfWorld.length() == 5,
                 "the number of unicorn's world must be composed of 5 characters");
