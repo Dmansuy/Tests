@@ -1,5 +1,5 @@
 package com.ipssi.unicorn.domain;
 
-enum Gender {
+public enum Gender {
     MALE, FEMALE
 }
