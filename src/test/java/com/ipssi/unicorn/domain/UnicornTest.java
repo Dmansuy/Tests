@@ -1,4 +1,4 @@
-package com.ipssi.unicorn;
+package com.ipssi.unicorn.domain;
 
 import com.ipssi.unicorn.domain.Gender;
 import com.ipssi.unicorn.domain.Unicorn;
