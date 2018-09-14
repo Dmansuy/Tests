@@ -1,4 +1,4 @@
-package com.ipssi.unicorn;
+package com.ipssi.unicorn.domain;
 
 enum Gender {
     MALE, FEMALE

@@ -1,5 +1,7 @@
 package com.ipssi.unicorn;
 
+import com.ipssi.unicorn.domain.Gender;
+import com.ipssi.unicorn.domain.Unicorn;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
@@ -7,7 +9,7 @@ import org.junit.rules.ExpectedException;
 import java.time.LocalDateTime;
 import java.time.Month;
 
-import static com.ipssi.unicorn.Gender.MALE;
+import static com.ipssi.unicorn.domain.Gender.MALE;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class UnicornTest {
