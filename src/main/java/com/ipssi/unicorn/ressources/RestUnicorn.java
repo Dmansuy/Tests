@@ -25,7 +25,7 @@ public class RestUnicorn {
     }
 
     @Nonnull
-    public Unicorn toDomainUsers() {
+    public Unicorn toDomainUnicorn() {
         return new Unicorn(nick, LocalDateTime.parse(birthday), Gender.valueOf(sex), numberOfWorld, ranch, stable);
     }
 
